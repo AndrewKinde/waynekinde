@@ -1,0 +1,148 @@
+.selected{
+    color: white !important;
+    background-color: #393838;
+}
+
+.navBar{
+    background-color: #e0e0e0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.navBtn{
+    padding: 1%;
+    color: #393838;
+    text-decoration: none;
+    font-family: 'Fira Sans', sans-serif;
+    transition: all 200ms ease;
+}
+
+.navBtn:hover{
+    color: white;
+    background-color: #393838;
+}
+
+.headerImage{
+    background-image: url(../images/Books.jpg);
+    width: 100vw;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.headerTextBack{
+background-color: #583924;
+width: clamp(20rem, 25vw, 30%);
+margin: auto;
+padding: 2% 0;
+border-radius: 5%;
+}
+
+.homeSermons{
+    width: 50%;
+    height: 20vh;
+    background-color: #a38c7a;
+    margin: 2% auto;
+    position: relative;
+    padding: 1% 0;
+}
+
+.grayBtn{
+    background-color: #393838;
+    color: white;
+    padding: 2%;
+    text-decoration: none;
+    font-family: 'Fira Sans', sans-serif;
+    transition: all 200ms ease;
+    border: 0;
+}
+
+.grayBtn:hover{
+    background-color: #ffffff;
+    color:  #786659;
+}
+
+.homeSermonsBtn{
+    text-decoration: none;
+    color: white;
+}
+
+.grayBtn:hover .homeSermonsBtn{
+    color: #393838;
+}
+
+.homeAbout{
+    width: 50%;
+    height: 30vh;
+    background-color: #786659;
+    margin: auto;
+    position: relative;
+}
+
+.homeAboutImg{
+    object-fit: cover;
+    float: right;
+    height: 30vh;   
+}
+
+.homeAboutHeading{
+padding-top: 4%;
+}
+
+.homeAboutText{
+    margin: 2%;
+}
+
+.whiteBtn{
+    background-color: #ffffff;
+    color:  #786659;
+    padding: 2%;
+    text-decoration: none;
+    font-family: 'Fira Sans', sans-serif;
+    transition: all 200ms ease;
+    border: 0;
+}
+
+.whiteBtn:hover{
+    background-color: #393838;
+    color: white;
+}
+
+.homeAboutBtn{
+    text-decoration: none;
+    color: #393838;
+}
+
+.whiteBtn:hover .homeAboutBtn{
+    color: white;
+}
+
+body{
+    text-align: center;
+    background: rgb(237, 226, 212);
+    margin: 0;
+}
+
+h1{
+    font-family: 'EB Garamond', serif; 
+    color: white;
+    font-weight: normal;
+    font-size: clamp(2rem, 4rem, 5rem);
+    display: inline;
+}
+
+h2{
+    font-family: 'Fira Sans', sans-serif;
+    color: white;
+    font-weight: normal;
+    font-size: 2rem;
+}
+
+p{
+    font-family: 'Mukta', sans-serif;
+    color: white;
+}
+
+hr{
+    width: 5vw;
+}
